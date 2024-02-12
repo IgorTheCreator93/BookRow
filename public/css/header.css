@@ -1,0 +1,84 @@
+.header {
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #ededed;
+  }
+  
+  .logo {
+  
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .logo img {
+    width: 70%;
+  }
+  
+  .logo-img {
+    width: 30%;
+    text-align: right;
+  }
+  
+  .logo-text a {
+    color: #000;
+    text-decoration: none;
+    text-align: left;
+    font-family: 'Joti One';
+    width: 70%;
+    font-weight: bold;
+    font-size: 30px;
+  }
+  
+  .search {  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    width: 60%;
+  }
+  
+  .search-content {
+    position: relative;
+    text-align: center;
+  
+  }
+  
+  .search-content img {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 35px;
+    width: 35px;
+    background-color: #b4b4b4;
+  
+  
+  }
+  
+  #text_search {
+    outline: none;
+    height: 35px;
+    border-radius: 5px;
+    max-height: 70%;
+    border: 1px solid #d4d4d4;
+    box-shadow: 0 0 5px 1px #5b5d5e;
+  }
+  
+  #text_search:hover {
+    box-shadow: 0 0 5px 2px #0189c3;
+  }
+  
+  .auth {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .auth a {
+    width: 25%;
+    font-size: 14px;
+    justify-content: start;
+  }

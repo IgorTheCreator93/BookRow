@@ -1,0 +1,73 @@
+  .footer {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ededed;
+    flex-wrap: wrap;  
+  }
+  
+  .foot1 {   
+    width: 100%;
+    margin: 0;
+    padding-top: 10px;   
+  }
+  
+  .foot1 p {
+    margin: 0;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+  }
+  
+  .foot1 hr {
+    width: 50%;
+    margin: 30px auto;
+  }
+  
+  .foot2 {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .foot2 h4{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Joti One';
+    font-weight: bold;
+    font-size: 42px;  
+  }
+  
+  .foot2 h2 {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Joti One';
+    font-weight: bold;
+    font-size: 14px;  
+  }
+  
+  .foot2 hr {
+    width: 50%;
+    margin: 30px auto;  
+  }
+
+  .foot3{
+    width: 100%;
+    margin: 0;
+    padding-bottom: 10px;
+  }
+
+  .foot3 p {
+    border: none;
+    padding:5px;
+    justify-content: center;
+    align-items: center;
+  }
